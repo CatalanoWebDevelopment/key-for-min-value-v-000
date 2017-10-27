@@ -8,8 +8,6 @@ def key_for_min_value(hash)
     if min_value == nil || min_value > value
       min_value = value
       returned_key = key
-    else
-      return nil
     end
   end
   returned_key
