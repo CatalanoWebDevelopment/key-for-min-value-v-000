@@ -7,6 +7,7 @@ def key_for_min_value(hash)
     if value[0] < value[1]
       min_value = key
     elsif value[1] < value[2]
+      min_value = key
     else
       return nil
     end
